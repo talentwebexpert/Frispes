@@ -1,0 +1,82 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Gothic&family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Gothic&display=swap");
+
+/*  Utility Section */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-width: 1110px;
+}
+
+.btn {
+  padding: 12px 24px;
+  margin: 0 5px;
+  border: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #ff5722;
+}
+
+.btn-dark {
+  background-color: #ff5722;
+  color: #fff;
+  box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+}
+
+/* End of utility section */
+
+/* Header and Nav Section */
+.logo {
+  color: #10375c;
+  font-size: 24px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #222831;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 0 20px;
+  font-weight: 700;
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid #ff5722;
+}
+.home {
+  display: flex;
+}
